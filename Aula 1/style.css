@@ -1,0 +1,53 @@
+html, body{
+    height: 100%;
+    background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    height: 20vh;
+    margin-bottom: 30px;
+}
+
+header {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+header a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+.container{
+    padding: 5em;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.container h1 span{
+    font-weight: lighter;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 35px;
+    text-align: center;
+}
+footer p {
+    display: inline;
+    font-size: 1.5em;
+
+}
